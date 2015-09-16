@@ -1,0 +1,8 @@
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Release\MyClock.exe.config
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Release\MyClock.exe
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Release\MyClock.pdb
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.Display.resources
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.Properties.Resources.resources
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.csproj.GenerateResource.Cache
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.exe
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.pdb

@@ -1,1 +1,9 @@
 c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Debug\MyClock.exe.config
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Debug\MyClock.exe
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\bin\Debug\MyClock.pdb
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.csprojResolveAssemblyReference.cache
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.Properties.Resources.resources
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.csproj.GenerateResource.Cache
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.exe
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.pdb
+c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Debug\MyClock.Display.resources
