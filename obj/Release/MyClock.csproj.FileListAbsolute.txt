@@ -6,3 +6,4 @@ c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Re
 c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.csproj.GenerateResource.Cache
 c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.exe
 c:\users\arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.pdb
+C:\Users\Arashimata\documents\visual studio 2013\Projects\MyClock\MyClock\obj\Release\MyClock.csprojResolveAssemblyReference.cache

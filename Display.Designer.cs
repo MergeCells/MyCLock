@@ -31,6 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.timeNow = new System.Windows.Forms.Label();
             this.secTimer = new System.Windows.Forms.Timer(this.components);
+            this.clockMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.MenuItemClose = new System.Windows.Forms.ToolStripMenuItem();
+            this.clockMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // timeNow
@@ -51,19 +54,35 @@
             this.secTimer.Interval = 1000;
             this.secTimer.Tick += new System.EventHandler(this.secTimer_Tick);
             // 
+            // clockMenu
+            // 
+            this.clockMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuItemClose});
+            this.clockMenu.Name = "clockMenu";
+            this.clockMenu.Size = new System.Drawing.Size(110, 26);
+            // 
+            // MenuItemClose
+            // 
+            this.MenuItemClose.Name = "MenuItemClose";
+            this.MenuItemClose.Size = new System.Drawing.Size(109, 22);
+            this.MenuItemClose.Text = "終了(&X)";
+            this.MenuItemClose.Click += new System.EventHandler(this.MenuItemClose_Click);
+            // 
             // Display
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 86);
+            this.ContextMenuStrip = this.clockMenu;
             this.Controls.Add(this.timeNow);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Display";
             this.Opacity = 0.5D;
             this.Text = "MyClock";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Display_Load);
+            this.clockMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -72,6 +91,8 @@
 
         private System.Windows.Forms.Label timeNow;
         private System.Windows.Forms.Timer secTimer;
+        private System.Windows.Forms.ContextMenuStrip clockMenu;
+        private System.Windows.Forms.ToolStripMenuItem MenuItemClose;
     }
 }
 

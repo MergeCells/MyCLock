@@ -36,5 +36,20 @@ namespace MyClock
         {
 
         }
+
+        private void MenuItemClose_Click(object sender, EventArgs e)
+        {
+            FormFadeOut();
+            this.Close();
+        }
+
+        private void FormFadeOut()
+        {
+            for (int n = 49; n >= 0; n--)
+            {
+                this.Opacity = (double)n / 100;
+                System.Threading.Thread.Sleep(1);
+            }
+        }
     }
 }
